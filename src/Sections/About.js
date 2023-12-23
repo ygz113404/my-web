@@ -1,3 +1,5 @@
+import ThreeScene from "../components/Three";
+
 function About() {
     return (
         <div className="bg-white">
@@ -7,7 +9,7 @@ function About() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rutrum orci vehicula arcu faucibus blandit. Nam malesuada orci eu elit elementum semper. Nulla commodo ac dolor vitae lacinia. Aliquam pretium interdum elementum. Nulla mattis accumsan malesuada. Phasellus quam ex, consequat ut dolor vel, tempus efficitur metus. Pellentesque at neque auctor, bibendum velit ac, bibendum augue. Donec eget viverra nisi. Curabitur suscipit, ex vel gravida elementum, ligula neque ultrices tellus, vel maximus risus elit a mi. Pellentesque varius mauris at lobortis hendrerit.</p>
      </div>
      <div className="m-auto">
-        <img src="https://picsum.photos/400/400" alt="" />
+        <ThreeScene/>
      </div>
      </div>
 
